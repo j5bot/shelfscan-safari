@@ -1,0 +1,19 @@
+{
+  "name": "shelfscan-safari",
+  "version": "0.10.5",
+  "description": "",
+  "scripts": {
+    "build": "dotenv -- cross-var \\$BUILDSCRIPT_PATH/build",
+    "release": "dotenv -- cross-var release-it --plugins.@release-it/bumper.in=\\$MANIFEST_PATH/manifest.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "proprietary",
+  "type": "module",
+  "devDependencies": {
+    "@release-it/bumper": "^8.0.1",
+    "cross-var": "^1.1.0",
+    "dotenv-cli": "^11.0.0",
+    "release-it": "^21.1.0"
+  }
+}
