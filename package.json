@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "build": "dotenv -- cross-var \\$BUILDSCRIPT_PATH/build",
-    "release": "dotenv -- cross-var release-it --plugins.@release-it/bumper.in=\\$MANIFEST_PATH/manifest.json"
+    "release": "dotenv -- cross-var release-it --no-increment --plugins.@release-it/bumper.in=\\$MANIFEST_PATH/manifest.json"
   },
   "keywords": [],
   "author": "",
